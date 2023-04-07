@@ -1,0 +1,31 @@
+.adv {
+    padding: 70px 0 78px 0;
+    &__items {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        margin-top: 65px;
+        width: 240px;
+        text-align: center;
+    }
+    &__subheader {
+        margin-top: 38px;
+        color: #0d0d0d;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+    }
+    &__descr {
+        margin-top: 26px;
+        color: #0d0d0d;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+        a {
+            color: #ff0000;
+            text-decoration: underline;
+            text-transform: uppercase;
+        }
+    }
+}
